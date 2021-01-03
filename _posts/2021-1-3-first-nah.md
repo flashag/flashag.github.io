@@ -4,6 +4,7 @@ title: The first post!
 ---
 
 I dunno whata to write down...
+I give this plugin two :+1:!
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
