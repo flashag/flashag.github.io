@@ -9,7 +9,7 @@ name: Artem Gumennikov
 description: Blog and portfolio
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/ava.png
+avatar: /images/ava.png
 
 #
 # Flags below are optional
@@ -19,11 +19,11 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/av
 footer-links:
   dribbble:
   email:
-  facebook:
+  facebook: artem.gumennikov
   flickr:
   github:
-  instagram:
-  linkedin:
+  instagram: artem_gumennikov
+  linkedin: artem-gumennikov
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: f1ashag
