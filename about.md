@@ -1,18 +1,20 @@
 ---
-title: Colophon
+title: About
 permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
+excerpt: Hi there, this is Artem!
 comments: false
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+I was born in Russia in a city called Perm. I left the city 7 years ago and never regret it.
+It's difficult for me to describe who I am. I can't be linked to only one particular activity because I like many. I'm not afraid of coding, know something about game design for f2p games, I had experience in movie shootings as an extra actor and sometimes even a main actor for commercials. I possess abilities to create graphic design, motion animation and able to create a simple 3d model. I am perfectly skilled in understanding things new to me.
+I'm a tech-savvy guy with a passion for geek culture and travels. I have a strong aspiration for financial independence and a desire to reach it through my own projects.
+I'm a so-called digital nomad and I don't know where and when I settle down.
 
-If you have a question about him or else, just send a letter to him.
+Currently in Lisbon, Portugal 🇵🇹
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
+**some links related to me ✨**
 
-**may u needs ✨**
-
+- twitter.com/{{ site.author.twitter }}
+- facebook.com/{{ site.author.facebook }}
 - {{ site.author.email }}
-- github.com/{{ site.author.github }}
