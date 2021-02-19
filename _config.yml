@@ -1,10 +1,10 @@
 # Site settings
 title: Artem Gumennikov # site title
 description: >- # site description
-  Newborn indie hacker straight out of the game industry👾.
+  Newborn indie hacker straight out of the game industry👾
 lang: en-US # default lang
-timezone: Asia/Jakarta # set your timezone
-image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+timezone: Europe/London # set your timezone
+image: assets/img/personal-card.jpg # This image used for Open Graph more info https://ogp.me/
 repo:  # site repo [optional]
 mode: dark # default theme "dark" | "light"
 
@@ -12,13 +12,13 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Artem Gumennikov # author name
   bio: >- # tell to the world
-    From Russia with 👾.
+    From Russia with 👾
   username: flashag # general username
   github:  # github username
   twitter: f1ashag # twitter username
   facebook:  # facebook username
   email: contact@flashag.net # email adress
-  avatar: /assets/img/cv2.png # change with your own avatar
+  avatar: /assets/img/cv2.jpg # change with your own avatar
 
 # URL settings
 url: "https://flashag.net/" #
