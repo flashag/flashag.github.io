@@ -16,5 +16,7 @@ Currently in Lisbon, Portugal 🇵🇹
 **some links related to me ✨**
 
 <a href="twitter.com/{{ site.author.twitter }}">Twitter</a>
+
 <a href="facebook.com/{{ site.author.facebook }}">Facebook</a>
+
 <a href="mailto:{{ site.author.email }}">Email</a>
