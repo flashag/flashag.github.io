@@ -243,7 +243,7 @@
   .post-item-date {
     min-width: 96px;
     color: $black;
-    font-style: italic
+    font-style: italic;
     padding-right: 10px;
 
     @include media-query($on-mobile) {
