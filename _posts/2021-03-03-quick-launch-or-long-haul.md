@@ -14,7 +14,6 @@ It turns out that you need to believe very strongly in the idea at some inner le
 In the flow of my reasoning, I came to the conclusion that if you have experience in launching successful products, you can quite rely on a quick approach to validate ideas. The idea that you are going to test, you initially subconsciously evaluate as potentially successful, you believe in it from the very beginning. The rest of your long list of ideas is just brainstorming. You are completely involved in testing this idea, there is nothing else around for you, this is a number one idea. Due to your experience and subconscious analysis, this idea is likely to work. Or no, but then the next one is definitely yes.<br />
 <br />
 So, in order not to get confused in the confusion of my thoughts, I will highlight the main points:<br />
-<br />
 - Quick launch of projects will work if you get lucky<br />
 - Long haul will more accurately determine the potential of the project<br />
 - You need to treat each launch as a long-playing one, the hypothesis testing depends on it<br />
