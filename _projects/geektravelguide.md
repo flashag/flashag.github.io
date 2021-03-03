@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title:  "Geek Travel Guide (past)"
 date:   2016-11-19 09:29:20 +0700
 categories: projects
