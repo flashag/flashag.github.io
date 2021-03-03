@@ -7,7 +7,7 @@ image:
 ---
 [EnglishTap][englishtap-url] is a mobile game where players practice and challenge their English level.
 
-<img src="/_projects/5.jpg" style="width: 200px;" alt="EnglishTap">
+<img src="/assets/img/5.jpg" style="width: 200px;" alt="EnglishTap">
 
 
 [englishtap-url]: https://apps.apple.com/us/app/englishtap-practice-language/id1524936033
