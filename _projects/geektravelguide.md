@@ -3,7 +3,7 @@ layout: project
 title:  "Geek Travel Guide (past)"
 date:   2016-11-19 09:29:20 +0700
 categories: projects
-image: "/geektravelguide/1.png"
+image: "/1.png"
 ---
 Geek Travel Guide is a informational website about events and places in geek travel industry.
 

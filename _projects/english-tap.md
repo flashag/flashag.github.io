@@ -3,7 +3,7 @@ layout: project
 title:  "EnglishTap"
 date:   2020-08-10 09:29:20 +0700
 categories: projects
-image: "/english-tap/5.jpg"
+image: "/5.jpg"
 ---
 [EnglishTap][englishtap-url] is a mobile game where players practice and challenge their English level.
 

@@ -33,6 +33,10 @@ collections:
     output: true
   projects:
     output: true
+    order:
+        - managiness.md
+        - english-tap.md
+        - geektravelguide.md
 
 # Markdown settings
 markdown: kramdown

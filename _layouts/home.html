@@ -3,7 +3,7 @@ layout: default
 home: true
 ---
 
-<div class="column">
+<div class="columns">
 	<h3 class="posts-item-note" aria-label="Recent Posts">Blog</h3>
 	{%- for post in site.posts limit: site.number_of_posts -%}
 	<article class="post-item">
@@ -15,7 +15,7 @@ home: true
 	{%- endfor -%}
 </div>
 
-<div class="column">
+<div class="columns">
 	<h3 class="posts-item-note" aria-label="Recent Posts">Projects</h3>
 	{%- for project in site.projects limit: site.number_of_projects -%}
 	<article class="post-item">
