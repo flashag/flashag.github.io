@@ -31,7 +31,7 @@ fb_appid:
 collections:
   posts:
     output: true
-  blogs:
+  projects:
     output: true
 
 # Markdown settings

@@ -223,6 +223,12 @@
   color: $black;
 }
 
+.columns {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
 // List of posts
 .post-item {
   display: flex;

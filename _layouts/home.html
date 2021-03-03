@@ -3,22 +3,34 @@ layout: default
 home: true
 ---
 
-<h3 class="posts-item-note" aria-label="Recent Posts">Recent Projects</h3>
-{%- for post in site.posts limit: site.number_of_posts -%}
-<article class="post-item">
-  <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
-  <h4 class="post-item-title">
-    <a href="{{ post.url }}">{{ post.title | escape }}</a>
-  </h4>
-</article>
-{%- endfor -%}
+<div class="column">
+	<h3 class="posts-item-note" aria-label="Recent Posts">Recent Projects</h3>
+	{%- for post in site.posts limit: site.number_of_posts -%}
+	<article class="post-item">
+	  <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
+	  <h4 class="post-item-title">
+	    <a href="{{ post.url }}">{{ post.title | escape }}</a>
+	  </h4>
+	</article>
+	{%- endfor -%}
+</div>
 
-<h3 class="posts-item-note" aria-label="Recent Posts">Recent articles</h3>
-{%- for blog in site.blogs limit: site.number_of_blogs -%}
-<article class="post-item">
-  <span class="post-item-date">{{ blog.date | date: "%b %d, %Y" }}</span>
-  <h4 class="post-item-title">
-    <a href="{{ blog.url }}">{{ blog.title | escape }}</a>
-  </h4>
-</article>
-{%- endfor -%}
+<div class="column">
+	<h3 class="posts-item-note" aria-label="Recent Posts">Recent articles</h3>
+	{%- for blog in site.blogs limit: site.number_of_blogs -%}
+	<article class="post-item">
+	  <span class="post-item-date">{{ blog.date | date: "%b %d, %Y" }}</span>
+	  <h4 class="post-item-title">
+	    <a href="{{ blog.url }}">{{ blog.title | escape }}</a>
+	  </h4>
+	</article>
+	{%- endfor -%}
+</div>
+
+<ul>
+  {% for project in site.projects %}
+    <li>
+      <a href="{{ project.url }}">{{ project.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
