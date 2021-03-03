@@ -4,7 +4,7 @@ home: true
 ---
 
 <div class="columns">
-	<h3 class="posts-item-note" aria-label="Recent Posts">Blog</h3>
+	<h3 class="posts-item-note" aria-label="Recent Posts" style="color: #7c63cf;">Blog</h3>
 	{%- for post in site.posts limit: site.number_of_posts -%}
 	<article class="post-item">
 	  <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
@@ -15,11 +15,10 @@ home: true
 	{%- endfor -%}
 </div>
 
-<div class="columns">
-	<h3 class="posts-item-note" aria-label="Recent Posts">Projects</h3>
+<div class="columns" style="width: 40%; padding-left: 1%;">
+	<h3 class="posts-item-note" aria-label="Recent Posts" style="color: #f1cb74;">Projects</h3>
 	{%- for project in site.projects limit: site.number_of_projects -%}
 	<article class="post-item">
-	  <span class="post-item-date">{{ project.date | date: "%b %d, %Y" }}</span>
 	  <h4 class="post-item-title">
 	    <a href="{{ project.url }}">{{ project.title | escape }}</a>
 	  </h4>

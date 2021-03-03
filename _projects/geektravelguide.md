@@ -7,4 +7,4 @@ image: "/1.png"
 ---
 Geek Travel Guide is a informational website about events and places in geek travel industry.
 
-<img src="/geektravelguide/1.png" alt="Geek Travel Guide">
+<img src="/1.png" alt="Geek Travel Guide">

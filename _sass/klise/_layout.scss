@@ -220,11 +220,10 @@
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 5px;
-  color: #7c63cf !important;
 }
 
 .columns {
-  width: 49%;
+  width: 58%;
   display: inline-block;
   vertical-align: top;
 }
@@ -241,10 +240,10 @@
   }
 
   .post-item-date {
-    min-width: 96px;
+    min-width: 80px;
     color: $black;
     font-style: italic;
-    padding-right: 10px;
+    font-size: 12px;
 
     @include media-query($on-mobile) {
       font-size: 16px;
