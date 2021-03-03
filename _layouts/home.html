@@ -12,3 +12,13 @@ home: true
   </h4>
 </article>
 {%- endfor -%}
+
+<h3 class="posts-item-note" aria-label="Recent Posts">Recent articles</h3>
+{%- for blog in site.blogs limit: site.number_of_blogs -%}
+<article class="post-item">
+  <span class="post-item-date">{{ blog.date | date: "%b %d, %Y" }}</span>
+  <h4 class="post-item-title">
+    <a href="{{ blog.url }}">{{ blog.title | escape }}</a>
+  </h4>
+</article>
+{%- endfor -%}

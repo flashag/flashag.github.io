@@ -31,6 +31,8 @@ fb_appid:
 collections:
   posts:
     output: true
+  blogs:
+    output: true
 
 # Markdown settings
 markdown: kramdown
@@ -59,6 +61,9 @@ jekyll_compose:
 
 # Homepage limit posts
 number_of_posts: 15
+
+# Homepage limit posts
+number_of_articles: 15
 
 # Build settings
 # theme: klise
